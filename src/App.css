@@ -31,3 +31,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-gold {
+  background-image: linear-gradient(to bottom right, #ffd700, #b39700);
+}
+
+.bg-silver {
+  background-image: linear-gradient(to bottom right, #C0C0C0, #808080);
+}
+
+.bg-copper {
+  background-image: linear-gradient(to bottom right, #B87333, #6C3400);
+}
+
+.bg-regular {
+  background-image: linear-gradient(to right, #33004D, #800080);
+}
+
+.text {
+  text-shadow: 1px 1px #a9a9a9;
+}
+
+.time {
+  font-weight: bold;
+}

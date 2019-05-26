@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './shield.png';
 import './App.css';
 
 const Racer = ({color, position, name, time}) => {

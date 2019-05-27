@@ -20,7 +20,7 @@ class App extends React.Component {
   componentDidMount(){
     console.log("The component is now mounted!")
     this.interval = setInterval(() =>
-      fetch(process.env.REACT_APP_API_URL)
+      fetch(process.env.REACT_APP_API_URL, {method: 'GET'})
         .then(racers => racers.json())
         .then(racers => this.setState({racers, loading: false})),
       2000

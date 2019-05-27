@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 backend/venv
-backend/*.json
+backend/credentials.json
 backend/__pycache__/

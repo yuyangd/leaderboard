@@ -1,6 +1,5 @@
 FROM node:10
 
-RUN mkdir /work
 WORKDIR /work
 
 COPY ./src ./

@@ -18,7 +18,7 @@ Keep the `credentials.json` under ./backend
 ## To run the stack locally
 
 ```bash
-docker-compose up
+docker-compose up --build
 ```
 
 visit http://localhost:3000

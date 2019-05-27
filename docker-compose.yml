@@ -19,7 +19,5 @@ services:
     build:
       context: ./backend
     command: python main.py
-    volumes:
-     - .:/work
     ports:
      - "5000:5000"

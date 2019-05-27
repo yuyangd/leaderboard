@@ -1,8 +1,8 @@
-# Leaderboard
+# Leaderboard backed by Spreadsheet
 
 ![screenshot](img/leaderboard_screen.png)
 
-## Setup Google Spreedsheet
+## Setup Google Spreadsheet
 
 The spreedsheet looks like this:
 

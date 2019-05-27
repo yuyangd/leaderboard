@@ -20,9 +20,10 @@ class App extends React.Component {
   componentDidMount(){
     console.log("The component is now mounted!")
     this.interval = setInterval(() =>
-      fetch('http://duy-backend.s3-website-ap-southeast-2.amazonaws.com/')
+      fetch('http://localhost:5000/')
         .then(racers => racers.json())
-        .then(racers => this.setState({racers, loading: false}))
+        .then(racers => this.setState({racers, loading: false})),
+      2000
     )
   }
 

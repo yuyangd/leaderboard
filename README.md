@@ -1,5 +1,7 @@
 # Leaderboard
 
+![screenshot](img/leaderboard_screen.png)
+
 ## Setup Google Spreedsheet
 
 The spreedsheet looks like this:
@@ -13,9 +15,19 @@ The spreedsheet looks like this:
 
 ## Setup Client Config
 
-Download the serivce account credentials from [Google API console](https://console.developers.google.com/getting-started)
+Create the serivce account credentials from [Google API console](https://console.developers.google.com/getting-started)
 
-Rename to `credentials.json` and keep under ./backend
+Download and rename to `credentials.json` and keep under ./backend
+
+Find the `client_email` from `credentials.json` looks like below
+
+```json
+{
+  "client_email": "leaderboard@<project-12345>.iam.gserviceaccount.com"
+}
+```
+
+Share the Google spreadsheet to this email
 
 ## To run the stack locally
 

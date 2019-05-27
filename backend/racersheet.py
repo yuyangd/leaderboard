@@ -12,7 +12,7 @@ class RacerSheet(object):
             'https://www.googleapis.com/auth/drive']
 
     self.credentials = ServiceAccountCredentials.from_json_keyfile_name(
-        'leaderboard-41f364525977.json', self.scope)
+        'credentials.json', self.scope)
 
     self.gc = gspread.authorize(self.credentials)
 
@@ -38,4 +38,4 @@ class RacerSheet(object):
         "color": self.get_color(i+1)
     } for i, (racer, time) in enumerate(list_of_lists)]
 
-    return json.dumps(data)
+    return json.dumps(data[:5])

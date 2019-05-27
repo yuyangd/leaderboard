@@ -19,4 +19,10 @@ def racer_data():
   resp.headers['Access-Control-Request-Method'] = '*'
   return resp
 
+@app.route('/sort')
+def sort_data():
+  rs = RacerSheet()
+  rs.sort_sheet()
+  return "sorted"
+
 app.run(host='0.0.0.0')

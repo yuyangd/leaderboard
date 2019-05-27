@@ -11,9 +11,11 @@ The spreedsheet looks like this:
 |Ach|13.34|
 |Tomi|18.36|
 
-## Download the client config from Google API console
+## Setup Client Config
 
-Keep the `credentials.json` under ./backend
+Download the serivce account credentials from [Google API console](https://console.developers.google.com/getting-started)
+
+Rename to `credentials.json` and keep under ./backend
 
 ## To run the stack locally
 

@@ -38,4 +38,4 @@ class RacerSheet(object):
         "color": self.get_color(i+1)
     } for i, (racer, time) in enumerate(list_of_lists)]
 
-    return json.dumps(data[:5])
+    return json.dumps(data[:10])
